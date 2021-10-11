@@ -4,6 +4,7 @@ from os import walk, rename
 from os.path import join, abspath
 from subprocess import run, CalledProcessError
 from re import finditer
+from uuid import uuid4
 
 def execute():
 	dump_program = None
@@ -34,6 +35,11 @@ def execute():
 		if arg is None:
 			print("Missing required arguments.")
 			exit(-1)
+
+	# Check if the UUID has to be generated or it's given.
+	if replace_uuid == "generate":
+		replace_uuid = str(uuid4()).replace("-", "")
+		print("Replacement UUID was generated.")
 
 	print(f"Using dump program in: <{dump_program}>.")
 	print(f"Using pack program in: <{pack_program}>.")
