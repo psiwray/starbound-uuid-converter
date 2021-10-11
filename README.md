@@ -1,6 +1,6 @@
-# <Starbound> UUID Converter
+# Starbound UUID Converter
 
-Use this script if you want to change the UUID of a save game, for example
+Use this script if you want to change the UUID of a savegame, for example
 because you're restoring the save game of a friend and wish to play with him
 again. Normally this wouldn't be possible, because you'd have the same UUID as
 your friend. This tool converts all occurrences of the old UUID with a new one,
