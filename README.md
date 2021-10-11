@@ -26,7 +26,7 @@ required.
 
 ### Example usage
 
-Test this in `cmd.exe` on Windows:
+Test this in `cmd.exe` on Windows from Starbound's storage folder:
 
 ```
 python.exe .\convert.py^
@@ -36,3 +36,7 @@ python.exe .\convert.py^
   --uuid=4d9a7c2f9f11499772d1e27ea7f4231c^
   --replace-uuid=7d8981a66c904b68b6e2a95b6a88765b^
 ```
+
+## Related software
+
++ You can change your character's appearance with [StarCheat](https://github.com/wizzomafizzo/starcheat).
