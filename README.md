@@ -7,7 +7,7 @@ your friend. This tool converts all occurrences of the old UUID with a new one,
 which you have to generate using an external tool or a website. It also renames
 the occurrences in the file names.
 
-**ALWAYS REMEMBER TO MAKE A BACKUP OF ALL YOUR `player` AND `universe` FOLDERS
+**ALWAYS REMEMBER TO MAKE A BACKUP OF THE FOLDERS YOU SPECIFY IN THE SCRIPT
 BEFORE PROCEEDING.**
 
 ## Command-line usage
@@ -25,6 +25,8 @@ required.
   can find this tool under the `<Starbound>\win32\` folder.
 
 ### Example usage
+
+Test this in `cmd.exe` on Windows:
 
 ```
 python.exe .\convert.py^
